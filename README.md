@@ -6,9 +6,12 @@ Customer_Conversion_Prediction_Project aims to predict customer conversion for a
 
 The project aims to help the insurance company identify the customers that are most likely to convert, so that they can be targeted via call and the cost of telephonic marketing campaigns can be reduced
 
-The historical sales data provided will be used to train and evaluate the performance of the machine learning models. The analysis of the model will be done to identify the important factors that contribute towards the conversion and the AUROC metric will be used to evaluate the model's performance. The main objective of the project is to develop an accurate and efficient model that can aid the insurance company in improving its sales conversion rate and reducing marketing costs
+The historical sales data provided will be used to train and evaluate the performance of the machine learning models. The analysis of the model will be done to identify the important factors that contribute towards the conversion and the AUROC metric will be used to evaluate the model's performance. 
+
+The main objective of the project is to develop an accurate and efficient model that can aid the insurance company in improving its sales conversion rate and reducing marketing costs
 
 The built ML model is also deployed in streamlit. This streamlit app is a customer conversion predicor where, when all the details of the customer is filled by the sales / telemarketing representatives of the insurance company, The app will predict 'Yes' if the customer is likely to take insurance and predicts 'No' if the customer will turn down the offer
+
 APP LINK: https://customerconversionpredictionproject-kp15xgyikzd.streamlit.app/
 
 ## Project Approach
