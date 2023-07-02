@@ -50,20 +50,20 @@ By seeing the countplot of the distribution of target variable, it is clearly vi
 
 ![image](https://github.com/Anitha-K-0711/Customer_Conversion_Prediction_Project/assets/115402011/17d07cc5-72d6-4966-aefe-ea97c2a47ecf)
 
-### Encoding Categorical and Target Columns
+### 7. Encoding Categorical and Target Columns
 All the categorical and target columns are label encoded
 
 The cleaned and encoded data is after this step is saved and downloaded as train.csv to use in the model deployment
 
-### Splitting the Data
+### 8. Splitting the Data
 Using train_test_split from model_selection package of sklearn library, I have split the data into x_train, x_test, y_train and y_test. 75% of the data goes to train and 25% of data goes to test
 
-### Balancing the Data
+### 9. Balancing the Data
 Using SMOTEENN technique from imblearn library, I have balanced the data 
 
 SMOTEENN combines SMOTE and Edited Nearest Neighbours(ENN) techniques. SMOTEENN performs undersampling and oversampling at the same time
 
-### Fit ML Models
+### 10. Fit ML Models
 I have used 6 classification models and trained the data. The 6 models are,
 
 1. Logistic Regression
@@ -81,7 +81,7 @@ Out of the 6 Models, with the highest AUROC score of 0.91, XGBoost is the best f
 
 ![image](https://github.com/Anitha-K-0711/Customer_Conversion_Prediction_Project/assets/115402011/9a2200fc-5952-4574-9e80-b1342bc6ed99)
 
-### Feature Importance 
+### 11. Feature Importance 
 The top 3 important features contributing towards the model are,
 
 1. Duration of the call in seconds
@@ -101,6 +101,7 @@ This app is a Customer Conversion Predictor that can predict whether a client wi
 Once the sales representative filled all the details of a customer and click [Predict] button, This app will predict whether the customer subscribe to insurance or not. If the prediction says [Yes], It means, the customer will buy the policy for sure. If the prediction says [No], It means, the customer will not buy the policy. By leveraging machine learning capabilities, the employees of the insurance company can gain predictive insights into customer conversion by comparing actual and predicted results
 
 Refer main.py to view the code block for app deployment
+
 App Link: https://customerconversionpredictionproject-kp15xgyikzd.streamlit.app/
 
 ## Further Scope
