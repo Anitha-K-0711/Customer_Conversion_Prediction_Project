@@ -20,7 +20,7 @@ APP LINK: https://customerconversionpredictionproject-kp15xgyikzd.streamlit.app/
 I have imported necessary libraries like numpy, pandas, sklearn, imblearn, seaborn, matplotlib, etc to use in the code block
 
 ### 2. Insights of the Data
-I have loaded the dataset raw_data.csv and converted it to a dataframe using pandas. After loading the data, I took insights of all the features and target and explained in detail about each feature
+I have loaded the dataset and converted it to a dataframe using pandas. After loading the data, I took insights of all the features and target and explained in detail about each feature
 
 ### 3. Generic Cleaning of Data
 I have used functions like null_values, dtypes, drop_duplicates to do general overall cleaning of the data
@@ -108,10 +108,13 @@ App Link: https://customerconversionpredictionproject-kp15xgyikzd.streamlit.app/
 
 The current project has successfully built and evaluated a machine learning model to predict whether a customer will subscribe to an insurance policy. However there is still room for improvement and further scope in this project which includes,
 
-1. Building a ML model with most important features: The data can be further trained with the ML models with only most important features of the data to check whether the results are getting fine tuned
-2. Exploratory Data Analysis (EDA): In detail EDA is further required to the data in order to further understand and train the models to the data
-3. Deployment: The plots of each feature and target need to be deployed in the streamlit app so that, the sales persons of the insurance company will have a better visualized ideas when approaching a customer
-4. Model Comparison: In addition to the models evaluated in this project, other classification models could also be implemented and compared to identify the best performing model for this problem
-5. Regular Maintenance: As the company's customer base grows and changes, the model's performance might degrade. Regular monitoring and maintenance of the model are necessary to ensure it continues to perform effectively
+1. Building a ML model with most important features: The data can be further trained with the ML models with only most important features of the data to check whether
+the results are getting fine tuned
+3. Exploratory Data Analysis (EDA): In detail EDA is further required to the data in order to further understand and train the models to the data
+4. Deployment: The plots of each feature and target need to be deployed in the streamlit app so that, the sales persons of the insurance company will have better visualized ideas when approaching a customer
+5. Model Comparison: In addition to the models evaluated in this project, other classification models could also be implemented and compared to identify the best performing model for this problem
+6. Regular Maintenance: As the company's customer base grows and changes, the model's performance might degrade. Regular monitoring and maintenance of the model are necessary to ensure it continues to perform effectively
 
 Overall, these enhancements and improvements could help the insurance company to optimize its outreach efforts and improve the success rate of selling insurance policies to potential customers
+
+
